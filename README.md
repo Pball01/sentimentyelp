@@ -4,4 +4,4 @@ Download the file "Yelp_Project" and put it on your Desktop.
 Open terminal and execute the follwig command:
 
 	> cd Yelp_Project
-  > python app.py
+	> python app.py
