@@ -6,3 +6,5 @@ Open terminal and execute the following command:
 
 	> cd Yelp_Project
 	> python app.py
+	
+Once the code is executed go to http://127.0.0.1:5000/ on your browser
