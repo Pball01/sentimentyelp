@@ -216,7 +216,7 @@ def predict():
 
     #NaiveBayes with bag of words transformation
     #This is the best model
-    nb_classifier = MultinomialNB()
+    nb_classifier = MultinomialNB(alpha = 0.9, fit_prior = False)
     nb_classifier.fit(X_tr_bow, y_tr)
     #y_pred = nb_classifier.predict(X_te_bow)
     nb_classifier.score(X_te_bow, y_te)
